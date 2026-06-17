@@ -20,7 +20,7 @@ modules:
       
   - type: dnf
     repos:
-      nonfree: rpmfusion
+      nonfree: negativo17
       copr:
         - imput/helium
         - g3tchoo/prismlauncher
