@@ -20,6 +20,7 @@ modules:
       
   - type: dnf
     repos:
+      nonfree: rpmfusion
       copr:
         - imput/helium
         - g3tchoo/prismlauncher
@@ -33,6 +34,7 @@ modules:
         - nvim
         - fastfetch
         - gnome-disk-utility
+        - helium-bin
     remove:
       packages:
         - firefox
