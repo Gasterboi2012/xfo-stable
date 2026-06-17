@@ -35,8 +35,6 @@ modules:
         - fastfetch
         - gnome-disk-utility
         - helium-bin
-        - docker
-        - git
     remove:
       packages:
         - firefox
@@ -51,6 +49,7 @@ modules:
         scope: system
         install: 
           - org.vinegarhq.Sober
+          - ai.lmstudio.lm-studio
       - scope: user 
 
   - type: signing 
