@@ -35,6 +35,8 @@ modules:
         - fastfetch
         - gnome-disk-utility
         - helium-bin
+        - docker
+        - git
     remove:
       packages:
         - firefox
